@@ -1,6 +1,6 @@
 # Allframe
 
-A Discord Bot which can serve infor about weapons and characters in the game Warframe using simple commands from a PostgreSQL database
+A Discord Bot which can serve information about weapons and characters in the game Warframe using simple commands from a PostgreSQL database
 
 ### To-Do (Bot and Server):
 
