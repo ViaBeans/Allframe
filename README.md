@@ -7,7 +7,7 @@ A Discord Bot which can serve information about weapons and characters in the ga
 - [ ] Make a PostgreSQL Database
 - [ ] Scrape Wiki for information and add to DB
 
-- [ ] Get a Template Discord Bot (Using Discord.js)
+- [x] Get a Template Discord Bot (Using Discord.js)
 - [ ] Start simple requests in the form of text messages
 - [ ] Upgrade to Embeds
 
