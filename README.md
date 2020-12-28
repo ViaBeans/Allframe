@@ -1,11 +1,11 @@
 # Allframe
 
-A Discord Bot which can serve information about weapons and characters in the game Warframe using simple commands from a PostgreSQL database
+A Discord Bot which can serve information about various types of frogs
 
 ### To-Do (Bot and Server):
 
 - [ ] Make a PostgreSQL Database
-- [ ] Scrape Wiki for information and add to DB
+- [ ] Scrape Frog Encyclopedia? for information and add to DB
 
 - [ ] Get a Template Discord Bot (Using Discord.js)
 - [ ] Start simple requests in the form of text messages
@@ -15,4 +15,4 @@ A Discord Bot which can serve information about weapons and characters in the ga
 ### Possible Features:
 
 * React Dashboard to more easily edit info
-* Using Warframe API to give alerts for events (On Nintendo Switch and PC, primarily)
+* Find a Frog picture API and make a frog moodboard of 9 pictures
