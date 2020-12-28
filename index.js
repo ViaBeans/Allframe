@@ -18,8 +18,6 @@ client.categories = fs.readdirSync("./commands/"); //categories
 [ "command" ].forEach(handler => {
   require(`./handlers/command`)(client);
 }); //this is for command loading in the handler file, one fireing for each cmd
-const eventhandler = require("./handlers/events");
-eventhandler(client); //this is for event handling  
 
 //fires each time the bot receives a message
 client.on("message", async message => {

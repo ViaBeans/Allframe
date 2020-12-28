@@ -26,10 +26,9 @@ module.exports = {
 //function for getting all commands
 function getAll(client, message) {
     const embed = new MessageEmbed() //defining the Embed
-        .setColor("ORANGE")
-        .setThumbnail(client.user.displayAvatarURL())
+        .setColor("BLUE")
         .setTitle("HELP MENU")
-        .setFooter(`TO see command descriptions and inforamtion, type: ${config.prefix}help [CMD NAME]`, client.user.displayAvatarURL())
+        .setFooter(`type: ${config.prefix}help [CMD NAME] for more info`)
     const commands = (category) => { //finding all commands and listing them into a string with filter and map
         return client.commands.filter(cmd => cmd.category === category)
             .map(cmd => `\`${cmd.name}\``).join(", ")
